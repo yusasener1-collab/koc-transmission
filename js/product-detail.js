@@ -277,11 +277,21 @@
   var navLinks = document.getElementById('navLinks');
   var langToggle = document.getElementById('langToggle');
 
-  // Nav scroll
-  function handleNavScroll() {
-    nav.classList.toggle('nav--scrolled', true); // always scrolled on detail pages
+  // Nav scroll (always scrolled on detail pages) + scroll-to-top visibility
+  var scrollTopBtn = document.getElementById('scrollTop');
+  nav.classList.add('nav--scrolled');
+
+  function handleScrollTopVis() {
+    if (scrollTopBtn) scrollTopBtn.classList.toggle('visible', window.scrollY > 400);
   }
-  handleNavScroll();
+  window.addEventListener('scroll', handleScrollTopVis, { passive: true });
+  handleScrollTopVis();
+
+  if (scrollTopBtn) {
+    scrollTopBtn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 
   // Mobile menu
   navBurger.addEventListener('click', function () {

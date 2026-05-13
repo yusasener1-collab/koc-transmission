@@ -178,12 +178,22 @@
   const langToggle = document.getElementById('langToggle');
   const contactForm = document.getElementById('contactForm');
 
-  // ── Nav scroll effect ──────────────────────────────────────────────────
+  // ── Nav scroll effect + Scroll-to-top visibility ───────────────────────
+  const scrollTopBtn = document.getElementById('scrollTop');
+
   function handleNavScroll() {
-    nav.classList.toggle('nav--scrolled', window.scrollY > 60);
+    var y = window.scrollY;
+    nav.classList.toggle('nav--scrolled', y > 60);
+    if (scrollTopBtn) scrollTopBtn.classList.toggle('visible', y > 400);
   }
   window.addEventListener('scroll', handleNavScroll, { passive: true });
   handleNavScroll();
+
+  if (scrollTopBtn) {
+    scrollTopBtn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 
   // ── Mobile menu ────────────────────────────────────────────────────────
   navBurger.addEventListener('click', function () {

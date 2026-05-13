@@ -1,7 +1,7 @@
-# Degisim Motor - Modern Website
+# KOC Transmission - Modern Website
 
 ## Project Overview
-A modern, premium static website for Degisim Motor (industrial power transmission company, est. 2000, Bursa/Turkey). Rebuilt from the original degisimmotor.com with a refined, non-generic design using taste-skill soft-skill principles.
+A modern, premium static website for KOC Transmission (industrial power transmission company, est. 2000, Bursa/Turkey). Rebuilt from the original degisimmotor.com under the new brand identity, with a refined, non-generic design using taste-skill soft-skill principles. Domain: koctransmission.com (deployed on Vercel).
 
 ## Tech Stack
 - **HTML5** + **CSS3** (custom properties, scroll-driven animations, modern grid)
@@ -47,7 +47,7 @@ assets/             — Images (if any)
 
 ## Content Data
 ### Company
-- Name: Degisim Motor Makina Yedek Parca San. ve Tic. Ltd. Sti.
+- Brand: KOC Transmission (rebranded from Degisim Motor)
 - Founded: 2000
 - Location: Bursa, Turkey
 - Specialty: Power transmission solutions
@@ -64,7 +64,7 @@ assets/             — Images (if any)
 
 ### Contact
 - Phones: 0(224) 441 23 79 / 441 24 78 / 441 13 77
-- Emails: satisdestek@degisimmotor.com, degisimmotor@degisimmotor.com
+- Emails: info@koctransmission.com, sales@koctransmission.com
 - Address: Alaaddinbey Mah. 615. Sok. No:8, 16120 Nilufer/Bursa
 - Hours: Mon-Fri 08:00-17:30, Sat 08:00-12:30, Sun Closed
 
