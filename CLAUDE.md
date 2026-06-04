@@ -64,7 +64,7 @@ assets/             — Images (if any)
 
 ### Contact
 - Phones: 0(224) 441 23 79 / 441 24 78 / 441 13 77
-- Emails: info@koctransmission.com, sales@koctransmission.com
+- Email: sales@koctransmission.com
 - Address: Alaaddinbey Mah. 615. Sok. No:8, 16120 Nilufer/Bursa
 - Hours: Mon-Fri 08:00-17:30, Sat 08:00-12:30, Sun Closed
 
